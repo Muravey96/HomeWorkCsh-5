@@ -2,7 +2,7 @@
 Напишите программу, которая покажет количество чётных чисел в массиве.
 [345, 897, 568, 234] -> 2  */
 
-Console.Clear();
+ Console.Clear();
 
 int arraySize = new Random().Next(4, 15);
 int[] array = GetArray(arraySize, 100, 999);
@@ -31,4 +31,4 @@ int CountEvenNum(int[] numbers)
         if (num%2 == 0) amount += 1;
     }
     return amount;
-}
+} 
